@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="numb">1.45</string>
+
+    <string name="openNavDrawer">Open navigation drawer</string>
+    <string name="closeNavDrawer">Close navigation drawer</string>
+</resources>

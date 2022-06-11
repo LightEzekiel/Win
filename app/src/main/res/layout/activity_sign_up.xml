@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="com.potentnetwork.win.SignUp">
+
+    <RelativeLayout
+        android:id="@+id/TopRelative"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/gray">
+
+        <TextView
+            android:id="@+id/welcomeLogo"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="104dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="WELCOME TO WIN"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/SpinKitView.DoubleBounce"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/welcomeLogo"
+            android:layout_marginStart="170dp"
+            android:layout_marginBottom="15dp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/signusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:layout_marginTop="40dp"
+                    android:backgroundTint="#2699FB">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:background="#FFFFFF"
+                        android:hint="Enter email"
+                        android:paddingStart="15dp"
+                        android:textColorHint="#2699FB" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/sgnpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:backgroundTint="#2699FB"
+                    app:boxBackgroundColor="#FFFFFF"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:paddingStart="15dp"
+                        android:textColor="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/signupbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="195dp"
+                    android:backgroundTint="#3E4DA1"
+                    android:padding="10dp"
+                    android:text="Sign In"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>

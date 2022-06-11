@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_btn_cancel.xml" value="0.19230769230769232" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/drawable/logo_background.xml" value="0.19230769230769232" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/drawable/notice_background.xml" value="0.19230769230769232" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/layout/about_us_layout.xml" value="0.22" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_choose_option.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_draw.xml" value="0.10643115942028986" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_main_menu.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_sign_up.xml" value="0.15092592592592594" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/layout/warning_notes.xml" value="0.25" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/menu/bottom_menu.xml" value="0.15092592592592594" />
+        <entry key="..\:/Users/POTENT NETWORK/AndroidStudioProjects/WIN/app/src/main/res/menu/toolbar_menu.xml" value="0.16" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/booking_code_bg.xml" value="0.259" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_assignment_late.xml" value="0.217" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_baseball.xml" value="0.217" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_booking_add.xml" value="0.198" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_booking_done.xml" value="0.2595" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_booking_fail.xml" value="0.198" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_feedback.xml" value="0.217" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_football.xml" value="0.217" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_group.xml" value="0.2125" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_settings.xml" value="0.217" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_sports_tennis.xml" value="0.217" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/drawable/ic_warning.xml" value="0.198" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/about_us_layout.xml" value="0.4" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_booking_code.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_choose_option.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_draw.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_drawupdate_score.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_home_update_score.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_sign_up.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_tennis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_tennis_update_score.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/activity_win.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.264" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/fragment_tennis.xml" value="0.4" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/fragment_vip.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/history_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/homewin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/tennis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/warning_notes.xml" value="0.4" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/layout/winordraw.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/POTENTIAL/AndroidStudioProjects/WIN/app/src/main/res/menu/toolbar_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

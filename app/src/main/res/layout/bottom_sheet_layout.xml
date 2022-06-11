@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/booking_code_bg"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Codes (1XBET)"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="4">
+
+
+        <TextView
+            android:id="@+id/bet9ja"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="Football :"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/winBookingCodeBet9ja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_booking_done" />
+
+
+        <TextView
+            android:id="@+id/bet9ja_code"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:hint="loading..."
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@color/bet9jaCode"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/copy_bet9ja_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="12dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_copy_text" />
+
+        <ImageView
+            android:id="@+id/delete_bet9ja_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_delete" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="4.4"
+        >
+
+
+                <TextView
+                    android:id="@+id/betking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:text="Basktball :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/winBookingCodeBasketball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_booking_done" />
+
+        <TextView
+            android:id="@+id/betKing_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="4.3"
+            android:hint="loading..."
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@color/betKingCode"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/copy_betking_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_copy_text" />
+
+        <ImageView
+            android:id="@+id/delete_betking_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_delete" />
+
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:id="@+id/layout_edit4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="10dp"-->
+<!--        android:weightSum="4.4"-->
+<!--        >-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/tennis"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:text="Tennis :"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18sp"-->
+<!--            />-->
+<!--        <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:id="@+id/winBookingCodeTennis"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:visibility="invisible"-->
+<!--            app:srcCompat="@drawable/ic_booking_done" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tennis_code"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_weight="4.3"-->
+<!--            android:hint="loading..."-->
+<!--            android:text=""-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/betKingCode"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:id="@+id/copy_tennis_code"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="12dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:visibility="invisible"-->
+<!--            app:srcCompat="@drawable/ic_copy_text" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/delete_tennis_code"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:visibility="invisible"-->
+<!--            app:srcCompat="@drawable/ic_delete" />-->
+
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/layout_edit5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="4.4"
+        >
+
+
+        <TextView
+            android:id="@+id/chancemix"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="Mix :"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/winBookingCodeMix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="46dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_booking_done" />
+
+        <TextView
+            android:id="@+id/chancemix_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4.3"
+            android:hint="loading..."
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@color/betKingCode"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/copy_chancemix_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_copy_text" />
+
+        <ImageView
+            android:id="@+id/delete_chancemix_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_delete" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stake responsibly, risk management is important."/>
+    </LinearLayout>
+
+
+</LinearLayout>

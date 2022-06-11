@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/whatsapp_layout"
+        android:title="whatsapp"
+        android:icon="@drawable/whatsapp"
+        app:showAsAction="always"/>
+    <item android:id="@+id/booking_code"
+        android:title="Copy Text"
+        android:icon="@drawable/ic_booking_icon"
+        app:showAsAction="always"
+        />
+
+<!--    <item android:id="@+id/check_update"-->
+<!--        android:title="Update App"-->
+<!--        />-->
+
+</menu>

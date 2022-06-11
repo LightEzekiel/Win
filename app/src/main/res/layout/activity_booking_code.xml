@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/silver"
+    android:gravity="center"
+    tools:context="com.potentnetwork.win.updateOutcome.BookingCodeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/silver"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/silver"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/BtnBetKing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Text_BetKingCode"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/admin_background1"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Upload code (Basketball)"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/BtnChanceMix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Text_ChanceMixCode"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/admin_background1"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Upload code (Mix)"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Text_BetKingCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/BtnBet9ja"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/gray"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="7">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Insert Basketball code here"
+                        android:inputType="text"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="15dp"
+                        android:textAllCaps="true"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Text_Bet9jaCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/gray"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="7">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Insert Football code here"
+                        android:inputType="text"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="15dp"
+                        android:textAllCaps="true"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    android:id="@+id/Text_TennisCode"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_below="@+id/BtnBetKing"-->
+                <!--                    android:layout_marginTop="25dp"-->
+                <!--                    android:background="@color/gray"-->
+                <!--                    app:counterEnabled="true"-->
+                <!--                    app:counterMaxLength="7">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:hint="Insert Tennis code here"-->
+                <!--                        android:inputType="text"-->
+                <!--                        android:paddingLeft="10dp"-->
+                <!--                        android:paddingBottom="15dp"-->
+                <!--                        android:textAllCaps="true"-->
+                <!--                        android:textSize="18sp" />-->
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <!--                <Button-->
+                <!--                    android:id="@+id/BtnTennis"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_below="@id/Text_TennisCode"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:background="@drawable/admin_background1"-->
+                <!--                    android:backgroundTint="@color/teal_700"-->
+                <!--                    android:text="Upload code (Tennis)"-->
+                <!--                    android:textColor="@color/white"-->
+                <!--                    android:textStyle="bold" />-->
+
+                <Button
+                    android:id="@+id/BtnBet9ja"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Text_Bet9jaCode"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/admin_background1"
+
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Upload code (Football)"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Text_ChanceMixCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/BtnBetKing"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/gray"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="7">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Insert Mix code here"
+                        android:inputType="text"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="15dp"
+                        android:textAllCaps="true"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

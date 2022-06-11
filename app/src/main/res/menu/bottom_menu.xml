@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="GAMES">
+            <menu>
+                <item android:id="@+id/football"
+                    android:icon="@drawable/ic_football"
+                    android:title="Football"/>
+                <item android:id="@+id/basketball"
+                    android:icon="@drawable/ic_baseball"
+                    android:title="Basketball"/>
+                <item android:id="@+id/tennis"
+                    android:icon="@drawable/ic_sports_tennis"
+                    android:title="Tennis"/>
+                <item android:id="@+id/history"
+                    android:icon="@drawable/ic_menu_book"
+                    android:title="History"/>
+
+            </menu>
+        </item>
+    </group>
+
+
+
+            <item android:id="@+id/vip"
+                android:icon="@drawable/ic_group"
+                android:title="Vip (Win always)">
+
+            </item>
+
+
+
+
+    <item android:title="OTHERS">
+        <menu>
+            <item android:id="@+id/warning"
+                android:title="Note"
+                android:icon="@drawable/ic_assignment_late"/>
+            <item android:id="@+id/about_us"
+                android:title="About Win"
+                android:icon="@drawable/ic_feedback"
+                />
+
+        </menu>
+
+    </item>
+
+</menu>

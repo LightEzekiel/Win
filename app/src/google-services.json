@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926950171052",
+    "firebase_url": "https://winning-ad7a4-default-rtdb.firebaseio.com",
+    "project_id": "winning-ad7a4",
+    "storage_bucket": "winning-ad7a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926950171052:android:fd413ab49ebe4750611a09",
+        "android_client_info": {
+          "package_name": "com.potentnetwork.win"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926950171052-gsvvdjdfqpmfaipv4terkh0o6lj88p8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXbxa-h3L7o4cIhh4qeK1pmBdWKj4gUaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926950171052-gsvvdjdfqpmfaipv4terkh0o6lj88p8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
